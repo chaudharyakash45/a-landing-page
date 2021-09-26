@@ -1,0 +1,197 @@
+body{
+    margin:0px;
+    background-color: rgb(230, 225, 225);
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+#logo{
+   height:80px;
+    width:220px;
+}
+.memu-head{
+   
+/*     padding:  1px; */
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 550;
+    color: rgb(160, 157, 157);
+
+    
+    
+    
+    
+}
+.memu-head:hover{
+    color: black;
+    text-decoration: underline 5px blue ;
+    
+
+
+
+}
+#top-most{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+    align-items: center;
+   
+
+
+}
+.menu-item{
+    padding: 0px 73px ;
+    margin-top: 50px;
+   
+}
+.btn-frist{
+    width:125px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    color:blue;
+    background-color:pink;
+    border-radius: 15px;
+    border:0px solid white;
+
+}
+.btn-frist:hover{
+    color:white;
+    background-color: blue;
+    font-size:16px ;
+
+
+
+}
+
+#second-part{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color:burlywood */
+}
+.second-frist{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+
+}
+.second-frist h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+.second-frist p{
+    margin-left: 0px;;
+    font-size: 15px;
+    color: grey;
+}
+.item-set{
+    margin: 29px;
+}
+#btn-second{
+    color:white;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    font-size: 10px;
+    font-weight: 200;
+    margin-top:14px;
+    border-radius: 14px;
+}
+#btn-second:hover{
+    color:black;
+    background-color:rgb(58, 184, 206);
+    border:1px solid white;
+    font-size: 14px;
+    font-weight: 200;
+
+
+}
+#inlin-btn{
+    display: flex;
+    flex-direction: row;
+    margin-left: 152px;
+    
+
+}
+.content{
+       text-align: center;
+       padding:6px;
+}
+#third-aka{
+    display:flex;
+    flex-direction: row;
+    margin-left:92px;
+    
+
+
+}
+#third-aka:hover{
+    border:1px solid white;
+    background-color:white;
+    color: black;
+    width:100%;
+    border-radius: 20px;
+    
+   
+
+
+}
+.third-fifth:hover{
+    color:white;
+    background-color: blue;
+
+
+
+}
+
+
+.third-frist{
+    display: flex;
+    flex-direction: row;
+  
+   
+    width:35%;
+   margin-top:17px;
+    margin-left:12px
+
+}
+.third-second{
+    padding-left: 12px;
+    margin-top: 0px;
+
+}
+.third-third{
+    display: flex;
+    flex-direction: row;
+  
+   
+    width:35%;
+    
+    margin-left:12px
+
+
+
+}
+.third-sixth{
+    padding-left: 12px;
+}
+.third-fourth{
+    padding-left: 12px
+
+
+}
+.third-fifth{
+    padding-left: 12px;
+    margin-top: 10px;
+
+
+}
+
+#third-sec{
+    margin-left:12px
+
+
+}
